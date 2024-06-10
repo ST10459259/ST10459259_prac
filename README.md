@@ -6,11 +6,8 @@ Start
         forecast = ExternalAPI.getWeatherForecast(location)
         Return forecast
     End Function
-    
-    Function displayWeather(weather)
         // This function displays the weather forecast
         Write "Weather Forecast:"
-        Write "-----------------"
         Write "Temperature: " + weather.temperature
         Write "Description: " + weather.description
         Write "Wind Speed: " + weather.windSpeed
